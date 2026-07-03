@@ -1,0 +1,169 @@
+/* Container */
+
+.payment-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.payment-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2e7d32;
+}
+
+.payment-container h3 {
+  margin: 25px 0 15px;
+}
+
+.customer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.customer-form input,
+.customer-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.customer-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* Payment Options */
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-options label {
+  font-weight: 500;
+}
+
+.payment-options input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Card Details */
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.card-details input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Card Row */
+
+.card-row {
+  display: flex;
+  gap: 10px;
+}
+
+.card-row input {
+  flex: 1;
+}
+
+/* UPI */
+
+.upi-details input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.price-summary {
+  background: #f5f7f6;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.price-summary p,
+.order-price p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-summary h3,
+.order-price h3 {
+  display: flex;
+  justify-content: space-between;
+  color: #2e7d32;
+}
+
+/* Button */
+
+.place-order-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 25px;
+  background: #2e7d32;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.place-order-btn:hover {
+  background: #1b5e20;
+}
+
+.place-order-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* Tablet */
+
+/* @media (max-width: 768px) {
+
+  .payment-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .card-row {
+    flex-direction: column;
+  }
+
+} */
+
+/* Mobile */
+/* 
+@media (max-width: 480px) {
+
+  .payment-container {
+    padding: 18px;
+  }
+
+  .payment-container h2 {
+    font-size: 20px;
+  }
+
+  .place-order-btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+} */

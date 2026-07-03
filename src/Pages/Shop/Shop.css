@@ -1,0 +1,24 @@
+.shop-header {
+  background: #f5f7f6;
+}
+
+.shop-header h1 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 230px;
+  height: 4px;
+  background-color: green;
+  margin: 10px auto; 
+  border-radius: 10px;
+}
+
+.shop-container {
+  display: flex;
+  padding: 40px 30px;
+  gap: 18px;
+}
+

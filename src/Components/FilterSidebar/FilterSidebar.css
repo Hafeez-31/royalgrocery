@@ -1,0 +1,86 @@
+.sidebar {
+  width: 260px;
+  height: fit-content;
+  padding: 25px 15px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar li:hover {
+  color: green;
+}
+
+.sidebar li.active {
+  color: green;
+  font-weight: bold;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.rating-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.rating-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rating-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  accent-color: #2874f0;
+}
+
+.rating-option input {
+  margin-right: 12px;
+}
+
+.rating-text {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.star-icon {
+  color: #ffa41c;
+  font-size: 14px;
+}
+
+.clear-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  opacity: 0.9;
+}

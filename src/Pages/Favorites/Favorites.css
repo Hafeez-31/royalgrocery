@@ -1,0 +1,165 @@
+.favorites-page {
+    padding: 30px 0 90px;
+    background: #f5f7f6;
+}
+
+.favorites-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.empty-favorites {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.favorite-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.favorite-card:hover {
+    transform: translateY(-5px);
+}
+
+.favorite-image {
+    width: 100%;
+    height: 220px;
+}
+
+.favorite-content {
+    padding: 15px;
+}
+
+.favorite-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.favorite-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.remove-favorite {
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 25px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.remove-favorite:hover {
+    background: #b71c1c;
+}
+
+/* @media screen and (max-width: 1200px) {
+    .favorites-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .favorites-page {
+        padding: 40px 30px;
+    }
+
+    .favorites-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .favorites-title {
+        font-size: 28px;
+    }
+
+    .favorite-image {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .favorites-page {
+        padding: 30px 20px;
+    }
+
+    .favorites-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .favorites-title {
+        font-size: 24px;
+    }
+
+    .favorite-name {
+        font-size: 18px;
+    }
+
+    .favorite-price {
+        font-size: 16px;
+    }
+
+    .favorite-image {
+        height: 180px;
+    }
+
+    .remove-favorite {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .favorites-page {
+        padding: 20px 15px;
+    }
+
+    .favorites-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .favorites-title {
+        font-size: 22px;
+    }
+
+    .empty-favorites {
+        font-size: 18px;
+    }
+
+    .favorite-image {
+        height: 220px;
+    }
+
+    .favorite-content {
+        padding: 12px;
+    }
+
+    .favorite-name {
+        font-size: 17px;
+    }
+
+    .favorite-price {
+        font-size: 15px;
+    }
+
+    .remove-favorite {
+        font-size: 13px;
+    }
+} */

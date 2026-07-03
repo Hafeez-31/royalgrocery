@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #1B5E20;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.navbar img {
+    width: 260px;
+    height: 58px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 45px;
+    margin-right: 60px;
+}
+
+.navbar-menu .nav-links {
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar-menu a {
+    color: #fff;
+}
+
+.navbar-menu .nav-links:hover {
+    color: #FF8F00;
+}
+
+.navbar-menu .nav-links a:hover {
+    color: #FF8F00;
+}
+
+.navbar-menu .nav-links::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #FF8F00;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.navbar-menu .nav-links:hover::after {
+    width: 100%;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-icon{
+    color: white;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.cart-icon:hover{
+    color: #ff6600;   
+}
+
+.cart-badge{
+    position: absolute;
+    top: 25px;
+    right:14% ;
+    background: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.favorite-link {
+    position: relative;
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.favorite-icon {
+    cursor: pointer;
+}
+
+.favorite-badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: red;
+    color: white;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn {
+    padding: 10px 30px;
+    border: none;
+    background: #FF8F00;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background: #ffa000;
+}
