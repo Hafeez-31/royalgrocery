@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import CategoriesSection from "../Categoriessection/Categoriessection";
+import CategoriesSection from "../CategoriesSection/CategoriesSection";
 import "./Home.css";
 
 const Home = ({ homeRef, categoriesRef, cart, setCart, favorites, setFavorites }) => {

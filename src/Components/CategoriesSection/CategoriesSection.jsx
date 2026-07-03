@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import productsData from "../../Data/Products";
-import "./CategoriesSection.css";
+import "./categoriesSection.css";
 import Fruits from "../../assets/images/categories/mixfruits.jpg";
 import Dairy from "../../assets/images/categories/dairy.jpg";
 import Bakery from "../../assets/images/categories/bakery.jpg";
