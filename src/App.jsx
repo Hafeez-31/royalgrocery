@@ -8,7 +8,7 @@ import PaymentPage from "./Pages/PaymentPage/PaymentPage";
 import Orders from "./Pages/Orders/Orders";
 import Contact from "./Pages/Contact/Contact";
 import Favorites from "./Pages/Favorites/Favorites";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/footer";
 import productsData from "./Data/Products";
 import "./App.css";
 

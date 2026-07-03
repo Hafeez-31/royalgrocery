@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTwitter, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import Logo from "../../assets/images/navbar/logo.png"
-import "./Footer.css";
+import "./footer.css";
 
 const Footer = () => {
     return (
