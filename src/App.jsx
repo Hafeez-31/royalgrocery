@@ -5,10 +5,10 @@ import Home from "./Components/Home/Home";
 import Shop from "./Pages/Shop/Shop";
 import Cart from "./Pages/Cart/Cart";
 import PaymentPage from "./Pages/PaymentPage/PaymentPage";
-import Orders from "./Pages/Orders/Oreders";
+import Orders from "./Pages/Orders/Orders";
 import Contact from "./Pages/Contact/Contact";
 import Favorites from "./Pages/Favorites/Favorites";
-import Footer from "./Components/Footer/footer";
+import Footer from "./Components/Footer/Footer";
 import productsData from "./Data/Products";
 import "./App.css";
 
