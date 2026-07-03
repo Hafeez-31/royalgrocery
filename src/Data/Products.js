@@ -10,13 +10,13 @@ import Orange from "../assets/images/categories/aavinorange.jpg";
 import Nice from "../assets/images/categories/aavinnice.jpg";
 import whiteEgg from "../assets/images/categories/whiteegg.jpg";
 import brownEgg from "../assets/images/categories/brownegg.jpg";
-import arokyaStandard from "../assets/images/categories/arokyastandaerd.jpg";
-import kaadaiEgg from "../assets/images/categories/Kaadaiegg.jpg";
+import arokyaStandard from "../assets/images/categories/arokyastandard.jpg";
+import kaadaiEgg from "../assets/images/categories/kaadaiegg.jpg";
 import Litchi from "../assets/images/categories/litchi.jpg";
 import strawBerry from "../assets/images/categories/strawberry.jpg";
 import orangeFruit from "../assets/images/categories/orange.jpg";
 import Carrot from "../assets/images/categories/carrot.jpg";
-import Kiwi from "../assets/images/categories/kiwi.jpg"
+import Kiwi from "../assets/images/categories/kiwi.jpg";
 import Cabbage from "../assets/images/categories/cabbage.jpg";
 import sandWich from "../assets/images/categories/sandwich.jpg";
 import classicSweet from "../assets/images/categories/classicsweet.jpg";
